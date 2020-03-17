@@ -41,8 +41,8 @@ nbsimul=600
 for n in range(nbsimul): #for n in range(0):
     position=random.choice(graphe[position])  
     if position==fin+4:gagne+=1
-print(gagne/nbsimul)
-#La partie avec ELSE ne marhce pas et n'est pas terminé
-else: print("nouvelle tent")
-
-  position=random.choice(graphe[position])
+print("ils'agit du bon chemin")
+#une erreur s'affiche pour le else dont je ne connais pas la raison.
+else:#une erreur s'affiche pour le else dont je connais pas la raison.
+    print("il s'agit du mauvais chemin")
+ 
